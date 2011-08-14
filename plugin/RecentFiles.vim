@@ -27,11 +27,11 @@
 
 """"""""""""""""""""""""""""""""""" INITIALIZATION AND VERSION CHECK
 
-if &viminfo !~ '!'
-    echoerr 'RecentFiles needs the ! parameter in the viminfo option to work correctly.'
-    echoerr 'add line:   set viminfo+=!   to your configuration file'
-    finish
-endif
+" if &viminfo !~ '!'
+"     echoerr 'RecentFiles needs the ! parameter in the viminfo option to work correctly.'
+"     echoerr 'add line:   set viminfo+=!   to your configuration file'
+"     finish
+" endif
 
 if v:version < 700
     echoerr 'RecentFiles requires vim version >= 700.'
